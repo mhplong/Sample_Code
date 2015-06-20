@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EMDR Self Emotional Clearing Tool</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<style>
+    body {
+        background-color: orange;
+    }
+    canvas {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+    }
+</style>
+<body>
+
+<canvas id="canvas" width="1800" height="1000" style=""></canvas>
+
+<script type="text/javascript">
+    
+    var ticks = 0;
+    var speed = 6;
+    var direction = 1;
+    setInterval(draw, 10);
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+    
+    createTrackerImage();
+    var tracker = context.getImageData(0, 0, 100, 300);
+    context.clearRect(0, 0, 1800, 800);
+    
+    function draw() {
+        context.clearRect(0, 0, 1800, 800);
+        
+        context.save();
+        context.putImageData(tracker,ticks,300);
+        if (ticks >= 1700)
+        {
+            direction = -speed;
+        } else if (ticks <= 0)
+        {
+            direction = speed;
+        }
+        context.restore();
+        ticks += direction;
+    }
+
+    function createTrackerImage() {
+        var gradient = context.createRadialGradient(50, 50, 25, 50 , 50, 50);
+        
+        gradient.addColorStop(0, "blue");
+        gradient.addColorStop(0.9, "darkblue");
+        gradient.addColorStop(1, "blue");
+        
+        context.beginPath();
+        context.arc(50, 50, 50, 0, 360, false);
+        context.closePath();
+        context.fillStyle=gradient;
+        //context.setLineWidth(10);
+        context.fill();
+    }
+
+</script>
+
+</body>
+</html>
