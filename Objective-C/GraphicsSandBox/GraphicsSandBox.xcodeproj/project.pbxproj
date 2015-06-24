@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BD16A814D50F4E00FEB871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BD16A714D50F4E00FEB871 /* UIKit.framework */; };
+		A1BD16AA14D50F4E00FEB871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BD16A914D50F4E00FEB871 /* Foundation.framework */; };
+		A1BD16AC14D50F4E00FEB871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BD16AB14D50F4E00FEB871 /* CoreGraphics.framework */; };
+		A1BD16B214D50F4E00FEB871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BD16B014D50F4E00FEB871 /* InfoPlist.strings */; };
+		A1BD16B414D50F4E00FEB871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD16B314D50F4E00FEB871 /* main.m */; };
+		A1BD16B814D50F4E00FEB871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD16B714D50F4E00FEB871 /* AppDelegate.m */; };
+		A1BD16BB14D50F4E00FEB871 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD16B914D50F4E00FEB871 /* MainStoryboard.storyboard */; };
+		A1BD16BE14D50F4E00FEB871 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD16BD14D50F4E00FEB871 /* ViewController.m */; };
+		A1BD16C614D50F6D00FEB871 /* GraphicsCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD16C514D50F6D00FEB871 /* GraphicsCanvas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1BD16A314D50F4E00FEB871 /* GraphicsSandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsSandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BD16A714D50F4E00FEB871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1BD16A914D50F4E00FEB871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1BD16AB14D50F4E00FEB871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1BD16AF14D50F4E00FEB871 /* GraphicsSandBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphicsSandBox-Info.plist"; sourceTree = "<group>"; };
+		A1BD16B114D50F4E00FEB871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1BD16B314D50F4E00FEB871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1BD16B514D50F4E00FEB871 /* GraphicsSandBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphicsSandBox-Prefix.pch"; sourceTree = "<group>"; };
+		A1BD16B614D50F4E00FEB871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1BD16B714D50F4E00FEB871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1BD16BA14D50F4E00FEB871 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A1BD16BC14D50F4E00FEB871 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1BD16BD14D50F4E00FEB871 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1BD16C414D50F6D00FEB871 /* GraphicsCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCanvas.h; sourceTree = "<group>"; };
+		A1BD16C514D50F6D00FEB871 /* GraphicsCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsCanvas.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BD16A014D50F4E00FEB871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BD16A814D50F4E00FEB871 /* UIKit.framework in Frameworks */,
+				A1BD16AA14D50F4E00FEB871 /* Foundation.framework in Frameworks */,
+				A1BD16AC14D50F4E00FEB871 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BD169814D50F4E00FEB871 = {
+			isa = PBXGroup;
+			children = (
+				A1BD16AD14D50F4E00FEB871 /* GraphicsSandBox */,
+				A1BD16A614D50F4E00FEB871 /* Frameworks */,
+				A1BD16A414D50F4E00FEB871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BD16A414D50F4E00FEB871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD16A314D50F4E00FEB871 /* GraphicsSandBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BD16A614D50F4E00FEB871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD16A714D50F4E00FEB871 /* UIKit.framework */,
+				A1BD16A914D50F4E00FEB871 /* Foundation.framework */,
+				A1BD16AB14D50F4E00FEB871 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1BD16AD14D50F4E00FEB871 /* GraphicsSandBox */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD16B614D50F4E00FEB871 /* AppDelegate.h */,
+				A1BD16B714D50F4E00FEB871 /* AppDelegate.m */,
+				A1BD16B914D50F4E00FEB871 /* MainStoryboard.storyboard */,
+				A1BD16BC14D50F4E00FEB871 /* ViewController.h */,
+				A1BD16BD14D50F4E00FEB871 /* ViewController.m */,
+				A1BD16C414D50F6D00FEB871 /* GraphicsCanvas.h */,
+				A1BD16C514D50F6D00FEB871 /* GraphicsCanvas.m */,
+				A1BD16AE14D50F4E00FEB871 /* Supporting Files */,
+			);
+			path = GraphicsSandBox;
+			sourceTree = "<group>";
+		};
+		A1BD16AE14D50F4E00FEB871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD16AF14D50F4E00FEB871 /* GraphicsSandBox-Info.plist */,
+				A1BD16B014D50F4E00FEB871 /* InfoPlist.strings */,
+				A1BD16B314D50F4E00FEB871 /* main.m */,
+				A1BD16B514D50F4E00FEB871 /* GraphicsSandBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BD16A214D50F4E00FEB871 /* GraphicsSandBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BD16C114D50F4E00FEB871 /* Build configuration list for PBXNativeTarget "GraphicsSandBox" */;
+			buildPhases = (
+				A1BD169F14D50F4E00FEB871 /* Sources */,
+				A1BD16A014D50F4E00FEB871 /* Frameworks */,
+				A1BD16A114D50F4E00FEB871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicsSandBox;
+			productName = GraphicsSandBox;
+			productReference = A1BD16A314D50F4E00FEB871 /* GraphicsSandBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BD169A14D50F4E00FEB871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = A1BD169D14D50F4E00FEB871 /* Build configuration list for PBXProject "GraphicsSandBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1BD169814D50F4E00FEB871;
+			productRefGroup = A1BD16A414D50F4E00FEB871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BD16A214D50F4E00FEB871 /* GraphicsSandBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BD16A114D50F4E00FEB871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BD16B214D50F4E00FEB871 /* InfoPlist.strings in Resources */,
+				A1BD16BB14D50F4E00FEB871 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BD169F14D50F4E00FEB871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BD16B414D50F4E00FEB871 /* main.m in Sources */,
+				A1BD16B814D50F4E00FEB871 /* AppDelegate.m in Sources */,
+				A1BD16BE14D50F4E00FEB871 /* ViewController.m in Sources */,
+				A1BD16C614D50F6D00FEB871 /* GraphicsCanvas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1BD16B014D50F4E00FEB871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BD16B114D50F4E00FEB871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1BD16B914D50F4E00FEB871 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BD16BA14D50F4E00FEB871 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BD16BF14D50F4E00FEB871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1BD16C014D50F4E00FEB871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BD16C214D50F4E00FEB871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphicsSandBox/GraphicsSandBox-Prefix.pch";
+				INFOPLIST_FILE = "GraphicsSandBox/GraphicsSandBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1BD16C314D50F4E00FEB871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphicsSandBox/GraphicsSandBox-Prefix.pch";
+				INFOPLIST_FILE = "GraphicsSandBox/GraphicsSandBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BD169D14D50F4E00FEB871 /* Build configuration list for PBXProject "GraphicsSandBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BD16BF14D50F4E00FEB871 /* Debug */,
+				A1BD16C014D50F4E00FEB871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BD16C114D50F4E00FEB871 /* Build configuration list for PBXNativeTarget "GraphicsSandBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BD16C214D50F4E00FEB871 /* Debug */,
+				A1BD16C314D50F4E00FEB871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BD169A14D50F4E00FEB871 /* Project object */;
+}
