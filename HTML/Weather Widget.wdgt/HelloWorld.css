@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.BackText1 {
+    font:12px "Sand";
+    font-weight:normal;
+    text-align:center;
+    color:white;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+	width: 375px;
+}
+
+.BackText2 {
+    font:12px "Sand";
+    font-weight:normal;
+    text-align:center;
+    color:white;
+    position: absolute;
+    top: 225px;
+    left: 175px;
+}
+
+.link1 {
+	font:12px "Times New Roman";
+	color:white;
+	position:absolute;
+	top: 200px;
+	left: 125;
+}
+
+.backgroundImage {
+    position: absolute;
+    top 0px;
+    left 0px;
+}
+
+#bgnd {
+    position: absolute;
+    top 0px;
+    left 0px;
+}
+
+.flip {
+    position:absolute;
+    bottom:40px;
+    right:40px;
+    width:13px;
+    height:13px;
+}
+
+#flip {
+    opacity:0;
+    background: url(file:///System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+    z-index:8000;
+}
+
+#fliprollie {
+    display:none;
+    opacity:0.25;
+    background: url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+    z-index:7999;
+}
+
+#doneButton {
+    position:absolute;
+    bottom: 60px;
+    left: 170px;
+}
+
+#back {
+    display: none;
+}

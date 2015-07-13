@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<style type="text/css">
+    @import "HelloWorld.css";
+    a { text-decoration:none; }
+</style>
+
+<script type='text/javascript' src='HelloWorld.js' charset='utf-8'>
+</script>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/button/genericButton.js' charset='utf-8'>
+</script>
+</head>
+
+<body onload='setup();'>
+<div id="front" onmousemove='mousemove(event);' onmouseout='mouseexit(event);'>
+    <div id="bgnd"><img id = "backgroundImage" src="default.png" height=300 width=400></div>
+    <span id="worldText"> </span>
+
+    <div class='flip' id='fliprollie'></div>
+    <div class='flip' id='flip' onclick='showPrefs(event);' onmouseover='enterflip(event);' onmouseout='exitflip(event)';></div>
+</div>
+
+<div id="back">
+    <img span="backgroundImage" src="back.png" height=300 width=400>
+    <input type="checkbox" style="position:absolute; top: 50; left:140;" id="clutter" onclick="showClutter();"><span style="position:absolute; color:white; top: 50; left: 165;">Show Clutter</span></input>
+    <input type="checkbox" style="position:absolute; top: 75; left:140;" id="lightning" onclick="showLightning();"><span style = "position:absolute; color:white; top: 75; left: 165;">Show Lightning</span></input>
+	<span class="link1"><a style="color: red;" onclick="showWebsite('http://www.wunderground.com/cgi-bin/findweather/getForecast?query=35094');">Open</a> website for this location.
+	</span>
+    <span class="BackText1"><center>Preferences</center><hr /></span>
+	<span class="BackText2"><a href="mailto:mhplong@windstream.net">Email</a> me</span>
+    
+    <div id="doneButton"></div>
+     <script>
+    createGenericButton(doneButton, 'Done', hidePrefs);
+    </script>
+    </div>
+   </body>
+</html>
